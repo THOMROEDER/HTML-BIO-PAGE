@@ -1,0 +1,22 @@
+<nav class="subnav">
+  <button id="addBookBtn">Add Book</button>
+</nav>
+<div id="booksContent">
+  <div id="formContainer" style="display: none">
+    <form id="bookForm">
+      <input type="text" id="titleInput" placeholder="Book Title" required />
+      <input type="text" id="authorInput" placeholder="Author" required />
+      <button type="submit">Save</button>
+    </form>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+      </tr>
+    </thead>
+    <tbody id="booksTable"></tbody>
+  </table>
+</div>
