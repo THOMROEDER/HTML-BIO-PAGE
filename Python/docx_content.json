@@ -1,0 +1,56 @@
+[
+    {
+        "paragraph_id": 1,
+        "runs": [
+            {
+                "run_id": 1,
+                "text": "This is a title",
+                "style": {}
+            }
+        ]
+    },
+    {
+        "paragraph_id": 3,
+        "runs": [
+            {
+                "run_id": 1,
+                "text": "This is a normal text.",
+                "style": {}
+            }
+        ]
+    },
+    {
+        "paragraph_id": 4,
+        "runs": [
+            {
+                "run_id": 1,
+                "text": "This is a text with ",
+                "style": {}
+            },
+            {
+                "run_id": 2,
+                "text": "bold.",
+                "style": {
+                    "bold": true
+                }
+            }
+        ]
+    },
+    {
+        "paragraph_id": 5,
+        "runs": [
+            {
+                "run_id": 1,
+                "text": "This is a text with ",
+                "style": {}
+            },
+            {
+                "run_id": 2,
+                "text": "italics.",
+                "style": {
+                    "bold": true
+                }
+            }
+        ]
+    }
+]
